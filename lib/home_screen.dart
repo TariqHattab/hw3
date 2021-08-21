@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'widgets/feed_post.dart';
@@ -24,8 +23,6 @@ class _HomeScreenState extends State<HomeScreen> {
             padding: const EdgeInsets.only(right: 15.0),
             child: IconButton(
               onPressed: () {},
-              // splashRadius: 14,
-              // iconSize: 40,
               padding: const EdgeInsets.all(0),
               icon: Icon(
                 Icons.add_circle_rounded,

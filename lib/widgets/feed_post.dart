@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class FeedPost extends StatelessWidget {
@@ -18,6 +17,7 @@ class FeedPost extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print('in build in feedpost');
     return Container(
       child: Column(
         children: [
